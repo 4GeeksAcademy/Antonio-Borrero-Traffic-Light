@@ -1,11 +1,42 @@
-/* 
+.trafficTop {
+    background-color: black;
+    width: 30px;
+    height: 100px;
+    margin: auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    background-color: black;
+    width: 130px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
 
-*/
+.light {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+}
+
+.selected {
+    box-shadow: 0 0 20px 10px white;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
